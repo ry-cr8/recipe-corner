@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  background: url("https://images.pexels.com/photos/12292644/pexels-photo-12292644.jpeg")
+    center/cover no-repeat fixed;
+}
+
+header,
+main,
+section,
+article,
+footer {
+  background: transparent;
+}
