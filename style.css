@@ -10,10 +10,8 @@ body {
     center/cover no-repeat fixed;
 }
 
-header,
-main,
-section,
-article,
-footer {
-  background: transparent;
+.navi {
+  background-color: rgb(142, 230, 150);
+  padding: 20px;
+  border: 2px solid black;
 }
