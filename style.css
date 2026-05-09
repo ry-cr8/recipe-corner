@@ -38,6 +38,10 @@
   margin-left: 20px;
 }
 
+.nav-btn:hover {
+  color: #2d2926;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -144,7 +148,7 @@ body {
 }
 
 .bell:hover {
-  color: #269440;
+  color: #5f7464;
   font-variation-settings:
     "FILL" 1,
     "wght" 400,
@@ -153,10 +157,33 @@ body {
 }
 
 .heart:hover {
-  color: #9e2420;
+  color: #c76d52;
   font-variation-settings:
     "FILL" 1,
     "wght" 400,
     "GRAD" 0,
     "opsz" 24;
+}
+
+.recipe-btn {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #5f7464;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.recipe-btn:hover {
+  background-color: #2d2926;
+}
+
+.featured-recipes,
+.recipe-categories {
+  margin-left: 20px;
+}
+
+footer {
+  text-align: center;
 }
