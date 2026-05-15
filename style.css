@@ -101,7 +101,7 @@ a {
   transition:
     transform 0.35s ease,
     box-shadow 0.35s ease;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
+  box-shadow: 5px 10px 20px 3px rgba(91, 167, 81, 0.5);
 }
 
 .hero-pic:hover {
@@ -173,6 +173,8 @@ body {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  width: fit-content;
+  align-self: flex-start;
 }
 
 .recipe-btn:hover {
@@ -182,20 +184,20 @@ body {
 
 .recipe-card {
   display: flex;
-  width: 100%;
-  max-width: 450px;
+  flex: 1;
+  min-width: 200px;
   gap: 15px;
   padding: 15px;
   background: white;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.5);
   align-items: flex-start;
 }
 
 .recipe-card:hover {
   border: 1px solid #5f7464;
   transform: scale(1.05);
-  transition: 0.2s;
+  transition: 0.7s;
 }
 
 .recipe-card img {
@@ -207,10 +209,15 @@ body {
 }
 
 .recipe-text {
+  display: flex;
   flex-direction: column;
   gap: 8px;
   flex: 1;
-  margin: 0%;
+  align-items: flex-start;
+}
+
+.recipe-text h3 {
+  margin: 0;
 }
 
 .recipe-description {
@@ -219,7 +226,17 @@ body {
   line-height: 1.5;
 }
 
-.featured-recipes,
+.featured-recipes {
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.featured-recipes h2 {
+  flex-basis: 100%;
+}
+
 .recipe-categories {
   margin-left: 20px;
 }
