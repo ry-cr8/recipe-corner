@@ -216,6 +216,12 @@ body {
   align-items: flex-start;
 }
 
+/* Ensure the action button sits at the bottom of the card */
+.recipe-text {
+  justify-content: space-between;
+  min-height: 200px;
+}
+
 .recipe-text h3 {
   margin: 0;
 }
